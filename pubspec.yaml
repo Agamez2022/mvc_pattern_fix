@@ -17,10 +17,10 @@ dependencies:
   # https://pub.dev/packages/universal_platform
   universal_platform: ^1.1.0
 
-dev_dependencies:
+#dev_dependencies:
 # Used during Continuous Integration
-  integration_test:
-    sdk: flutter
+  #integration_test:
+  #  sdk: flutter
 #  # Needed here as well for testing
 #  flutter_test:
 #    sdk: flutter
