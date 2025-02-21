@@ -47,7 +47,7 @@ import 'package:flutter/foundation.dart';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_test/flutter_test.dart' show TestWidgetsFlutterBinding;
+//import 'package:flutter_test/flutter_test.dart' show TestWidgetsFlutterBinding;
 
 /// Replace 'dart:io' for Web applications
 import 'package:universal_platform/universal_platform.dart';
@@ -472,7 +472,8 @@ abstract class StateMVC<T extends StatefulWidget> extends State<StatefulWidget>
       /// This allows one to place a breakpoint at 'onError(details)' to determine error location.
       FlutterError.onError = onError;
     } else {
-      _inTester = WidgetsBinding.instance is TestWidgetsFlutterBinding;
+      //_inTester = WidgetsBinding.instance is TestWidgetsFlutterBinding;
+      _inTester = false;
     }
 
     /// IMPORTANT! Assign itself to stateView before adding any Controller. -gp
