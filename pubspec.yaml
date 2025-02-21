@@ -11,8 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   # Used in mvc_pattern.dart import 'package:flutter_test/flutter_test.dart' show TestWidgetsFlutterBinding;
-  flutter_test:
-    sdk: flutter
+  #flutter_test:
+  #  sdk: flutter
 
   # https://pub.dev/packages/universal_platform
   universal_platform: ^1.1.0
